@@ -1,34 +1,39 @@
-body{
+body {
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-    background: #999999; 
+    background: #999999;
+    padding: 20px; /* Ajusté la valeur de padding */
 }
 
 /* Styles pour le header */
 header {
-    display: flex; 
+    display: flex;
     justify-content: space-between; /* Espacement égal entre les éléments horizontaux */
     align-items: center; /* Centre les éléments verticalement */
-    padding: 10px; 
-    text-align: right; 
+    padding: 10px;
+    text-align: right;
 }
 
 .logo_site {
-    width: 30%; /* Limite la hauteur du logo */
+    width: 30%; /* Limite la largeur du logo, conserve la proportion */
     height: auto;
 }
 
 .img_anglais {
     max-height: 40px; /* Limite la hauteur de l'image du drapeau anglais */
-    float: right;
-    margin: 100px;
+    margin: 10px 20px; /* Ajusté les marges pour un meilleur espacement */
 }
 
-.banniere{
-    margin: 300px;
+.banniere {
+    margin: 20px 0; /* Ajusté la marge pour un meilleur espacement */
 }
 
 .liens_header {
-    display: flex; /* Utilisez un affichage flexible pour aligner les liens horizontalement */
-    gap: 100px; /* Espacement entre les liens */
+    display: flex;
+    gap: 20px; /* Espacement entre les liens ajusté */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0; /* Ajusté la marge pour un meilleur espacement */
 }
